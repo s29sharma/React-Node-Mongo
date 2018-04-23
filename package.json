@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon --exec babel-node server.js --ignore public/",
-    "dev":"webpack -wd",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mongodb": "^3.0.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
